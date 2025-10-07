@@ -1,10 +1,6 @@
 "use client";
 
-import {
-  useState,
-  startTransition,
-  unstable_ViewTransition as ViewTransition,
-} from "react";
+import { useState, startTransition, ViewTransition } from "react";
 
 const LayoutAnimation = () => {
   const [isOn, setIsOn] = useState(false);
